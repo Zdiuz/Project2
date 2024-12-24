@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natal di Hati</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <header>
+        <h1 class="logo">Natal di Hati</h1>
+        <nav>
+            <ul>
+                <li><a href="#ucapan">Ucapan</a></li>
+                <li><a href="#cerita">Cerita Natal</a></li>
+                <li><a href="#video">Video Spesial</a></li>
+                <li><a href="#galeri">Galeri Kenangan</a></li>
+                <li><a href="#pesan">Pesan Pribadi</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="ucapan" class="section">
+            <div class="ucapan-container animate__animated animate__fadeIn">
+                <h2>Ucapan Selamat Natal</h2>
+                <p class="ucapan-text">"Selamat Natal, Cintaku! Semoga setiap momen di hari istimewa ini dipenuhi dengan cinta, kebahagiaan, dan keajaiban. Kamu adalah hadiah terindah dalam hidupku."</p>
+            </div>
+        </section>
+
+        <section id="cerita" class="section">
+            <div class="cerita-container animate__animated animate__fadeIn">
+                <h2>Cerita Natal Kita</h2>
+                <p>Di malam Natal tahun lalu, kita duduk di depan perapian, dikelilingi oleh cahaya lampu Natal yang berkelap-kelip. Kita berbagi cerita dan tawa, dan aku tahu saat itu bahwa kamu adalah orang yang tepat untukku. Setiap detik bersamamu adalah keajaiban.</p>
+                <img src="cerita-natal.jpg" alt="Cerita Natal" class="cerita-image">
+            </div>
+        </section>
+
+        <section id="video" class="section">
+            <div class="video-container animate__animated animate__fadeIn">
+                <h2>Video Spesial</h2>
+                <video controls>
+                    <source src="video-ucapan.mp4" type="video/mp4">
+                    Browser Anda tidak mendukung video tag.
+                </video>
+            </div>
+        </section>
+
+        <section id="galeri" class="section">
+            <div class="galeri-container animate__animated animate__fadeIn">
+                <h2>Galeri Kenangan</h2>
+                <div class="galeri-grid">
+                    <img src="foto1.jpg" alt="Kenangan 1" class="galeri-image">
+                    <img src="foto2.jpg" alt="Kenangan 2" class="galeri-image">
+                    <img src="foto3.jpg" alt="Kenangan 3" class="galeri-image">
+                    <img src="foto4.jpg" alt="Kenangan 4" class="galeri-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="pesan" class="section">
+            <div class="pesan-container animate__animated animate__fadeIn">
+                <h2>Pesan Pribadi</h2>
+                <form id="pesanForm">
+                    <textarea placeholder="Tulis pesan untuk kekasihmu..." required></textarea>
+                    <button type="submit">Kirim Pesan</button>
+                </form>
+                <div id="pesanOutput"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Selamat Natal, sayang! Semoga cinta kita selalu bersinar seperti bintang di malam Natal.</p>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
